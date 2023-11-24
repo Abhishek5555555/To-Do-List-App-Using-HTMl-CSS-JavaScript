@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List App</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="video-container">
+      <video autoplay muted loop id="rain-video">
+        <source
+          src="/To-Do List/src/video/SaveTube.io-Rain Animation - Free Royalty Footage-(1080p).mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div id="app">
+      <h1>To-Do List</h1>
+      <form id="task-form">
+        <input type="text" id="task-input" placeholder="Add a new task..." />
+        <button type="button" id="add-btn">Add</button>
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
